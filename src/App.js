@@ -1,13 +1,11 @@
-import './App.css';
 import { ChakraProvider, theme } from '@chakra-ui/react';
-import Chat from "./pags/Chat";
-
+import Chat from './pages/Chat';
 const App = () => {
   return (
     <ChakraProvider theme={theme}>
-      <Chat/>
-
+      <Chat />
     </ChakraProvider>
+
   )
 }
 
